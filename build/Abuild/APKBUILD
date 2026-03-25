@@ -2,7 +2,7 @@
 # Alpine-Maintainer: mio <miyopan@e.email>
 pkgname=font-hack
 pkgver=3.003
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="A typeface designed for source code"
 url="https://sourcefoundry.org/hack/"
 arch="noarch"
@@ -21,7 +21,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 d6480957ef77b0e117a564b76e7b8b041a28cfc89441d394a27e2a1b230cae7a67c0b9f3cbe6aab48c5d2cc832b0ea653017a3b925db1d0cc2885e02eab9a81d  Hack-v3.003-ttf.tar.xz
 "
